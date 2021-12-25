@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="shortcut icon" type="image/jpg"
+    href="https://www.graphicsprings.com/filestorage/stencils/357255f9239be07272a142c94528f632.svg" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>Rural Mart</title>
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+    //Anupam Moharana™
+    $(document).ready(function () {
+        $("a").on('click', function (event) {
+            if (this.hash !== "") {
+                event.preventDefault();
+
+                var hash = this.hash;
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 800, function () {
+                    window.location.hash = hash;
+                });
+            }
+        });
+    });
+</script>
+<body>
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                <div class="logo"><a href="Index.html"><img src="https://www.graphicsprings.com/filestorage/stencils/357255f9239be07272a142c94528f632.svg" alt="logo" width="50" height="60"></a></div>
+                <span class="ml-3 text-xl"><a href="Index.html">Artisans Atlantis</a></span>
+            </a>
+            <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                <a href="#Home" class="mr-5 hover:text-gray-900">Home</a>
+                <a href="#Store" class="mr-5 hover:text-gray-900">Store</a>
+                <a href="#About" class="mr-5 hover:text-gray-900">About Us</a>
+                <a href="Gallery.html" class="mr-5 hover:text-gray-900">Gallery</a>
+                <a href="#Phone" class="mr-5 hover:text-gray-900">Contact Us</a>
+            </nav>
+            <button
+                class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"><a
+                    href="SignIn.html">Sign In</a>
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+            </button>
+        </div>
+    </header>
+    <section class="text-gray-600 body-font" id="Home">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+            <div
+                class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-1000">Stylish. Practical.
+                    Innovative.
+                    <br class="hidden lg:inline-block">See what you need
+                </h1>
+                <p class="mb-8 leading-relaxed">A celebration of family and community. Help underserved artisans sell
+                    their to come forward and be a part of better world
+                </p>
+                <div class="flex justify-center">
+                    <button
+                        class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"><a
+                            href="SignIn.html">Log In</a>></button>
+                    <button
+                        class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg"><a
+                            href="#Member">Become
+                            a Member</a></button>
+                </div>
+            </div>
+            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                <img class="object-cover object-center rounded" alt="hero" src="https://source.unsplash.com/720x600/?art,handcraft">
+            </div>
+        </div>
+    </section>
+<hr>
+    <section class="text-gray-600 body-font" id="Store">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-wrap -m-4">
+                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                    <a class="block relative h-48 rounded overflow-hidden">
+                        <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                            src="https://images-na.ssl-images-amazon.com/images/I/71J94ZRrpbL._AC_SL1500_.jpg">
+                    </a>
+                    <div class="mt-4">
+                        <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Furniture</h3>
+                        <h2 class="text-gray-900 title-font text-lg font-medium">4 legged Wooden Table Glass Top</h2>
+                        <p class="mt-1">$16.00</p>
+                    </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                    <a class="block relative h-48 rounded overflow-hidden">
+                        <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                            src="https://m.media-amazon.com/images/I/71eS1QzdzsS._AC_SS450_.jpg">
+                    </a>
+                    <div class="mt-4">
+                        <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Pottery</h3>
+                        <h2 class="text-gray-900 title-font text-lg font-medium">Decorative Flower Vase for Living Room
+                        </h2>
+                        <p class="mt-1">$21.15</p>
+                    </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                    <a class="block relative h-48 rounded overflow-hidden">
+                        <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                            src="https://images-na.ssl-images-amazon.com/images/I/A1jsMo%2BDixL._SX355_.jpg">
+                    </a>
+                    <div class="mt-4">
+                        <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Mats</h3>
+                        <h2 class="text-gray-900 title-font text-lg font-medium">Jute Braided Floor Mat</h2>
+                        <p class="mt-1">$12.00</p>
+                    </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                    <a class="block relative h-48 rounded overflow-hidden">
+                        <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                            src="https://directcreateecomdev.s3.ap-south-1.amazonaws.com/opencart/image/productFromFeb2020/Handmade%20Tribal%20aree1600778457-600x600.jpeg">
+                    </a>
+                    <div class="mt-4">
+                        <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Clothing</h3>
+                        <h2 class="text-gray-900 title-font text-lg font-medium">Handmade Tribal Saree</h2>
+                        <p class="mt-1">$18.40</p>
+                    </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                    <a class="block relative h-48 rounded overflow-hidden">
+                        <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                            src="https://i.ytimg.com/vi/wTWtOQYIg-0/maxresdefault.jpg">
+                    </a>
+                    <div class="mt-4">
+                        <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Decoration</h3>
+                        <h2 class="text-gray-900 title-font text-lg font-medium">Beautiful Wood Craft set of 3 with LEDs
+                        </h2>
+                        <p class="mt-1">$16.00</p>
+                    </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                    <a class="block relative h-48 rounded overflow-hidden">
+                        <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                            src="https://5.imimg.com/data5/KF/WT/VH/SELLER-84392430/handmade-wooden-non-stick-serving-and-cooking-spoon-kitchen-tools-utensil-set-of-8-500x500.jpg">
+                    </a>
+                    <div class="mt-4">
+                        <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Kitchen</h3>
+                        <h2 class="text-gray-900 title-font text-lg font-medium"><a href="#buy">Handmade Wooden
+                                Non-Stick Serving and
+                                Cooking Spoon Kitchen Tools Utensil, Set of 8</h2>
+                        <p class="mt-1">$21.15</p>
+                    </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                    <a class="block relative h-48 rounded overflow-hidden">
+                        <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                            src="https://cdn.shopify.com/s/files/1/0269/8729/8859/products/JackMarFront.jpg?v=1588694436">
+                    </a>
+                    <div class="mt-4">
+                        <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Household</h3>
+                        <h2 class="text-gray-900 title-font text-lg font-medium">Handmade Jute Bag</h2>
+                        <p class="mt-1">$12.00</p>
+                    </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                    <a class="block relative h-48 rounded overflow-hidden">
+                        <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                            src="https://ak.picdn.net/shutterstock/videos/1017679600/thumb/1.jpg">
+                    </a>
+                    <div class="mt-4">
+                        <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Decoration</h3>
+                        <h2 class="text-gray-900 title-font text-lg font-medium">Handmade Wooden Horse</h2>
+                        <p class="mt-1">$18.40</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<hr>
+    <section class="text-gray-600 body-font overflow-hidden" id="buy">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="lg:w-4/5 mx-auto flex flex-wrap">
+                <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
+                    src="https://5.imimg.com/data5/KF/WT/VH/SELLER-84392430/handmade-wooden-non-stick-serving-and-cooking-spoon-kitchen-tools-utensil-set-of-8-500x500.jpg">
+                <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+                    <h2 class="text-sm title-font text-gray-500 tracking-widest">Decoration</h2>
+                    <h1 class="text-gray-900 text-3xl title-font font-medium mb-1">Handmade Wooden Non-Stick Serving and
+                        Cooking Spoon Kitchen Tools Utensil, Set of 8</h1>
+                    <div class="flex mb-4">
+                        <span class="flex items-center">
+                            <svg fill="currentColor" stroke="currentColor" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="2" class="w-4 h-4 text-indigo-500"
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z">
+                                </path>
+                            </svg>
+                            <svg fill="currentColor" stroke="currentColor" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="2" class="w-4 h-4 text-indigo-500"
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z">
+                                </path>
+                            </svg>
+                            <svg fill="currentColor" stroke="currentColor" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="2" class="w-4 h-4 text-indigo-500"
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z">
+                                </path>
+                            </svg>
+                            <svg fill="currentColor" stroke="currentColor" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="2" class="w-4 h-4 text-indigo-500"
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z">
+                                </path>
+                            </svg>
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="w-4 h-4 text-indigo-500" viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z">
+                                </path>
+                            </svg>
+                            <span class="text-gray-600 ml-3">4 Reviews</span>
+                        </span>
+                        <span class="flex ml-3 pl-3 py-2 border-l-2 border-gray-200 space-x-2s">
+                            <a class="text-gray-500">
+                                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    class="w-5 h-5" viewBox="0 0 24 24">
+                                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                </svg>
+                            </a>
+                            <a class="text-gray-500">
+                                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    class="w-5 h-5" viewBox="0 0 24 24">
+                                    <path
+                                        d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                    </path>
+                                </svg>
+                            </a>
+                            <a class="text-gray-500">
+                                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    class="w-5 h-5" viewBox="0 0 24 24">
+                                    <path
+                                        d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </span>
+                    </div>
+                    <p class="leading-relaxed">Product Description
+                        <li>Stylish handmade design to provide a comfortable grip, This multipurpose set is ideal for
+                            daily use</li>
+                        <li>Made from wood, this spoon set is non-toxic and free from harmful materials, Get a better
+                            handling while cooking as it is simple to use</li>
+                        <li>Durable, long lasting and extremely portable</li>
+                        <li> Material: Wood, Colour: Dark Brown</li>
+                        <li>Package Contents: 8 -Pieces Kitchen Cooking and Serving Spoon</li>
+                    </p>
+                    <div class="flex mt-6 items-center pb-5 border-b-2 border-gray-100 mb-5">
+                        <div class="flex">
+                        </div>
+                        <div class="flex ml-6 items-center">
+                            <span class="mr-3">Quantity</span>
+                            <div class="relative">
+                                <select
+                                    class="rounded border appearance-none border-gray-300 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-200 focus:border-indigo-500 text-base pl-3 pr-10">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                </select>
+                                <span
+                                    class="absolute right-0 top-0 h-full w-10 text-center text-gray-600 pointer-events-none flex items-center justify-center">
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" class="w-4 h-4" viewBox="0 0 24 24">
+                                        <path d="M6 9l6 6 6-6"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <span class="title-font font-medium text-2xl text-gray-900">$21.15</span>
+                        <button
+                            class="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Add
+                            To cart</button>
+                        <button
+                            class="rounded-full w-10 h-10 bg-gray-200 p-0 border-0 inline-flex items-center justify-center text-gray-500 ml-4">
+                            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                class="w-5 h-5" viewBox="0 0 24 24">
+                                <path
+                                    d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z">
+                                </path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<hr>
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-col text-center w-full mb-20">
+                <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Artisans Atlantis</h1>
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Starting a craft business is a wonderful way to
+                    build and share the joy of creating things. Through this business, we are doing nothing but bringing
+                    smiles to people’s faces as we are creating something unique for you.</p>
+            </div>
+            <div class="flex flex-wrap -m-4 text-center">
+                <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+                    <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="text-indigo-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+                            <path d="M8 17l4 4 4-4m-4-5v9"></path>
+                            <path d="M20.88 18.09A5 5 0 0018 9h-1.26A8 8 0 103 16.29"></path>
+                        </svg>
+                        <h2 class="title-font font-medium text-3xl text-gray-900">2.7K</h2>
+                        <p class="leading-relaxed">Downloads</p>
+                    </div>
+                </div>
+                <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+                    <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="text-indigo-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+                            <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 00-3-3.87m-4-12a4 4 0 010 7.75"></path>
+                        </svg>
+                        <h2 class="title-font font-medium text-3xl text-gray-900">1.3K</h2>
+                        <p class="leading-relaxed">Users</p>
+                    </div>
+                </div>
+                <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+                    <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="text-indigo-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+                            <path d="M3 18v-6a9 9 0 0118 0v6"></path>
+                            <path
+                                d="M21 19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a2 2 0 012-2h3zM3 19a2 2 0 002 2h1a2 2 0 002-2v-3a2 2 0 00-2-2H3z">
+                            </path>
+                        </svg>
+                        <h2 class="title-font font-medium text-3xl text-gray-900">74</h2>
+                        <p class="leading-relaxed">Files</p>
+                    </div>
+                </div>
+                <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+                    <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="text-indigo-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                        </svg>
+                        <h2 class="title-font font-medium text-3xl text-gray-900">46</h2>
+                        <p class="leading-relaxed">Places</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<hr>
+    <section class="text-gray-600 body-font" id="Member">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-col text-center w-full mb-20">
+                <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">Pricing</h1>
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Find your ideal craft, We are not just selling</p>
+            </div>
+            <div class="lg:w-2/3 w-full mx-auto overflow-auto">
+                <table class="table-auto w-full text-left whitespace-no-wrap">
+                    <thead>
+                        <tr>
+                            <th
+                                class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tl rounded-bl">
+                                Plan</th>
+                            <th
+                                class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">
+                                Benefit</th>
+                            <th
+                                class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">
+                                Delivery Time</th>
+                            <th
+                                class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">
+                                Price</th>
+                            <th
+                                class="w-10 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tr rounded-br">
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="px-4 py-3">START</td>
+                            <td class="px-4 py-3">Standard Shopping no custom Orders</td>
+                            <td class="px-4 py-3">Depends on location and Delivery services</td>
+                            <td class="px-4 py-3 text-lg text-gray-900">Free</td>
+                            <td class="w-10 text-center">
+                                <input name="plan" type="radio">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="border-t-2 border-gray-200 px-4 py-3">PRO</td>
+                            <td class="border-t-2 border-gray-200 px-4 py-3">Priority Orders</td>
+                            <td class="border-t-2 border-gray-200 px-4 py-3">7-8 Business Days</td>
+                            <td class="border-t-2 border-gray-200 px-4 py-3 text-lg text-gray-900">$38 p.m.</td>
+                            <td class="border-t-2 border-gray-200 w-10 text-center">
+                                <input name="plan" type="radio">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="border-t-2 border-gray-200 px-4 py-3">BUSINESS</td>
+                            <td class="border-t-2 border-gray-200 px-4 py-3">Custom orders Allowed Max 5; No bulk Orders
+                            </td>
+                            <td class="border-t-2 border-gray-200 px-4 py-3">5-6 days,For bulk orders time as per
+                                artisan</td>
+                            <td class="border-t-2 border-gray-200 px-4 py-3 text-lg text-gray-900">$56 p.m.</td>
+                            <td class="border-t-2 border-gray-200 w-10 text-center">
+                                <input name="plan" type="radio">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">SPECIAL</td>
+                            <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">Bulk Order Available, Top
+                                priority orders</td>
+                            <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">1-2 for readymade items, For
+                                bulk orders time as per artisan</td>
+                            <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900">$72 p.m.
+                            </td>
+                            <td class="border-t-2 border-b-2 border-gray-200 w-10 text-center">
+                                <input name="plan" type="radio">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="flex pl-4 mt-4 lg:w-2/3 w-full mx-auto">
+                <a href = "Learnmore.html"class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                    </svg>
+                </a>
+                <button
+                    class="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Buy
+                    Now</button>
+            </div>
+        </div>
+    </section>
+<hr>
+   <section class="text-gray-600 body-font" ID="About">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-wrap -m-4">
+                <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+                    <div class="h-full text-center">
+                        <img alt="testimonial"
+                            class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
+                            src="https://cdn130.picsart.com/276627011016201.jpg?to=crop&type=webp&r=302x302&q=75">
+                        <p class="leading-relaxed">Highly skilled and results-oriented professional with solid academic
+                            preparation holding a Bachelor degree in Engineering and extensive experience in
+                            intelligence and special operations seeks position in risk management.</p>
+                        <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+                        <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm"><a
+                                href="https://www.instagram.com/anupam_moharana/">Anupam Moharana</a></h2>
+                        <p class="text-gray-500">Senior Developer</p>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+                    <div class="h-full text-center">
+                        <img alt="testimonial"
+                            class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
+                            src="https://dis-blog.thalesgroup.com/wp-content/uploads/2020/10/hacker-sqr-300x300.jpg">
+                        <p class="leading-relaxed">Highly skilled and results-oriented professional with solid academic
+                            preparation holding a Bachelor degree in Engineering and extensive experience in
+                            intelligence and special operations seeks position in risk management.</p>
+                        <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+                        <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm"><a
+                                href="https://www.instagram.com/mansii_jain_/">Mansi Jain</a></h2>
+                        <p class="text-gray-500">UI Developer</p>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 lg:mb-0 p-4">
+                    <div class="h-full text-center">
+                        <img alt="testimonial"
+                            class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
+                            src="https://i.pinimg.com/474x/07/85/1b/07851bc0f4e732f616fbf771225c4c76.jpg">
+                        <p class="leading-relaxed">Highly skilled and results-oriented professional with solid academic
+                            preparation holding a Bachelor degree in Engineering and extensive experience in
+                            intelligence and special operations seeks position in risk management.</p>
+                        <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+                        <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm"><a
+                                href="https://www.instagram.com/avirooppaul/">Aviroop Paul</a></h2>
+                        <p class="text-gray-500">CTO</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<hr>
+    <section class="text-gray-600 body-font relative" id="Phone">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-col text-center w-full mb-12">
+                <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Contact Us</h1>
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Craft is dreaming & Creating Smiles</p>
+            </div>
+            <div class="lg:w-1/2 md:w-2/3 mx-auto">
+                <div class="flex flex-wrap -m-2">
+                    <div class="p-2 w-1/2">
+                        <div class="relative">
+                            <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
+                            <input type="text" id="name" name="name"
+                                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                        </div>
+                    </div>
+                    <div class="p-2 w-1/2">
+                        <div class="relative">
+                            <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+                            <input type="email" id="email" name="email"
+                                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                        </div>
+                    </div>
+                    <div class="p-2 w-full">
+                        <div class="relative">
+                            <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
+                            <textarea id="message" name="message"
+                                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                        </div>
+                    </div>
+                    <div class="p-2 w-full">
+                        <button
+                            class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Submit</button>
+                    </div>
+                    <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
+                        <a class="text-indigo-500">example@email.com</a>
+                        <p class="leading-normal my-5"><a
+                                href="https://www.google.com/maps/search/Kalinga+Institute+of+Industrial+Technology,+KIIT+Road,+Patia,+Bhubaneswar,+Odisha/@20.2637312,85.835776,13z">KIIT
+                                UNIVERSITY</a>
+                            <br><a
+                                href="https://www.google.com/maps/search/Bhubaneswar/@20.3008702,85.7504127,12z">Bhubaneswar</a>
+                        </p>
+                        <span class="inline-flex">
+                            <a class="text-gray-500">
+                                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    class="w-5 h-5" viewBox="0 0 24 24">
+                                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                </svg>
+                            </a>
+                            <a class="ml-4 text-gray-500">
+                                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    class="w-5 h-5" viewBox="0 0 24 24">
+                                    <path
+                                        d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                    </path>
+                                </svg>
+                            </a>
+                            <a class="ml-4 text-gray-500">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                                    <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                                </svg>
+                            </a>
+
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<hr>
+    <footer class="text-gray-600 body-font">
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                <div class="logo"><a href = "Index.html"><img src = "https://www.graphicsprings.com/filestorage/stencils/357255f9239be07272a142c94528f632.svg" alt = "logo" width="50" height="60"></div>
+                <span class="ml-3 text-xl"><a href = "Index.html">Artisans Atlantis</a></span>
+            </a>
+            <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">©
+                2021 Artisans Atlantis
+            </p>
+            <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+                <a class="text-gray-500">
+                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        class="w-5 h-5" viewBox="0 0 24 24">
+                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                    </svg>
+                </a>
+                <a class="ml-3 text-gray-500">
+                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        class="w-5 h-5" viewBox="0 0 24 24">
+                        <path
+                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                        </path>
+                    </svg>
+                </a>
+                <a class="ml-3 text-gray-500">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                    </svg>
+                </a>
+                <a class="ml-3 text-gray-500">
+                    <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path stroke="none"
+                            d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                        </path>
+                        <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                    </svg>
+                </a>
+            </span>
+        </div>
+    </footer>
+</body>
+</html>
